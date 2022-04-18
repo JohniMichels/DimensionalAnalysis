@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Source\DimensionalAnalysis\DimensionalAnalysis.csproj" />
+    <ProjectReference Include="..\Source\DimensionalAnalysis.csproj" />
   </ItemGroup>
 
 </Project>
