@@ -20,3 +20,13 @@ public class LinearUnit : Unit
         return Value * Factor;
     }
 }
+
+public class LinearUnit<T> : LinearUnit, IDimensionDependent<T>
+    where T : IDefinedDimension<T>, new()
+{
+    public LinearUnit(string name, string symbol, double factor)
+        : base(name, symbol, factor, IDefinedDimension<T>.GetInstance())
+    {
+    }
+    T IDimensionDependent<T>.Dimension => IDefinedDimension<T>.GetInstance();
+}

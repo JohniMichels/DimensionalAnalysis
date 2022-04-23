@@ -46,14 +46,3 @@ public abstract class Unit : IDimensionDependent
             IDivisionOperators<TDouble, double, TDouble>,
             IAdditionOperators<TDouble, double, TDouble>;
 }
-
-public abstract class Unit<T> : Unit, IDimensionDependent<T>
-    where T : IDefinedDimension<T>, new()
-{
-    public Unit(string name, string symbol)
-        : base(name, symbol, IDefinedDimension<T>.GetInstance())
-    {
-    }
-
-    public new T Dimension { get => IDefinedDimension<T>.GetInstance(); }
-}
