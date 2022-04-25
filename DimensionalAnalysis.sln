@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalAnalysis", "Source\DimensionalAnalysis.csproj", "{F8D20827-7993-4B30-B0A5-1EA38AE1ADF4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4A606175-1730-4E36-ADF0-2837B549B858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalAnalysis", "DimensionalAnalysis\DimensionalAnalysis.csproj", "{F3534C91-D56E-4132-997B-5CF33832DB47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F8D20827-7993-4B30-B0A5-1EA38AE1ADF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8D20827-7993-4B30-B0A5-1EA38AE1ADF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8D20827-7993-4B30-B0A5-1EA38AE1ADF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8D20827-7993-4B30-B0A5-1EA38AE1ADF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A606175-1730-4E36-ADF0-2837B549B858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A606175-1730-4E36-ADF0-2837B549B858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A606175-1730-4E36-ADF0-2837B549B858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A606175-1730-4E36-ADF0-2837B549B858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3534C91-D56E-4132-997B-5CF33832DB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3534C91-D56E-4132-997B-5CF33832DB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3534C91-D56E-4132-997B-5CF33832DB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3534C91-D56E-4132-997B-5CF33832DB47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

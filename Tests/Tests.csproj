@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Source\DimensionalAnalysis.csproj" />
+    <ProjectReference Include="..\DimensionalAnalysis\DimensionalAnalysis.csproj" />
   </ItemGroup>
 
 </Project>
